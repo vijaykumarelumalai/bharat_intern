@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">Latest</a>
+            <a href="#">My List</a>
+            <div class="language-select">
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="ta">Tamil</option>
+                    <option value="hi">Hindi</option>
+                    <option value="fr">French</option>
+                </select>
+            </div>
+            <div class="account">
+                <img src="https://via.placeholder.com/30" alt="User Logo">
+                <a href="#">My Account</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="https://cdn.mos.cms.futurecdn.net/4FndZ2wnb6YPYFQvPaTj2E.jpeg" alt="Hero Image">
+        <div class="hero-text">
+            <h1>Featured Movie</h1>
+            <p>Watch the latest movies and TV shows online.</p>
+            <button>Watch Now</button>
+            <button>My List</button>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for movies, TV shows, genres...">
+        </div>
+    </section>
+
+    <section class="movies">
+        <h2>Trending Now</h2>
+        <div class="movie-row" id="movie-row">
+            <!-- Movie items will be dynamically added here -->
+        </div>
+    </section>
+
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
+        
